@@ -1,0 +1,26 @@
+# Build products
+build/
+DerivedData/
+
+# Xcode workspace and user settings
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcscmblueprint
+*.moved-aside
+
+# macOS system files
+.DS_Store
+
+# Swift Package Manager
+/.build/
+/Packages/
+/.swiftpm/xcode/package.xcworkspace
+
+# CocoaPods
+/Pods/
+/Podfile.lock
+*.xcworkspace
+
+# Archives
+*.xcarchive
