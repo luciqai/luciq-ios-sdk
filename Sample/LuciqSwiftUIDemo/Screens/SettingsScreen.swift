@@ -63,7 +63,7 @@ struct SettingsView: View {
         switch setting {
         case .changeInvocationEvent:
             buttons.append(.default(Text("Shake")) { BugReporting.invocationEvents = [.shake] })
-            buttons.append(.default(Text("Swipe")) { BugReporting.invocationEvents = [.twoFingersSwipeLeft] })
+            buttons.append(.default(Text("Two-Finger Swipe Left")) { BugReporting.invocationEvents = [.twoFingersSwipeLeft] })
             buttons.append(.default(Text("Screenshot")) { BugReporting.invocationEvents = [.screenshot] })
             buttons.append(.default(Text("Floating Button")) { BugReporting.invocationEvents = [.floatingButton] })
             
