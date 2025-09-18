@@ -13,13 +13,13 @@ DerivedData/
 .DS_Store
 
 # Swift Package Manager
-/.build/
-/Packages/
-/.swiftpm/xcode/package.xcworkspace
+.build/
+Packages/
+.swiftpm/xcode/package.xcworkspace
 
 # CocoaPods
-/Pods/
-/Podfile.lock
+Pods/
+Podfile.lock
 *.xcworkspace
 
 # Archives
