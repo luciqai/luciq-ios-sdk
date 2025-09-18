@@ -59,7 +59,7 @@ struct HomeScreen: View {
     }
     
     @ViewBuilder
-    private func makeListView()-> some View {
+    private func makeListView() -> some View {
         List(MenuItem.allCases) { menuItem in
             TableCell(title: menuItem.rawValue) {
                 handleSelection(for: menuItem)
