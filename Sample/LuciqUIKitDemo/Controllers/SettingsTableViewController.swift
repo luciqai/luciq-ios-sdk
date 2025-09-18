@@ -91,7 +91,7 @@ private extension SettingsTableViewController {
     private func presentInvocationEventOptions() {
         let options = [
             ActionSheetOption(title: "Shake", handler: { BugReporting.invocationEvents = [.shake] }),
-            ActionSheetOption(title: "Swipe", handler: { BugReporting.invocationEvents = [.twoFingersSwipeLeft] }),
+            ActionSheetOption(title: "Two-Finger Swipe Left", handler: { BugReporting.invocationEvents = [.twoFingersSwipeLeft] }),
             ActionSheetOption(title: "Screenshot", handler: { BugReporting.invocationEvents = [.screenshot] }),
             ActionSheetOption(title: "Floating Button", handler: { BugReporting.invocationEvents = [.floatingButton] })
         ]
