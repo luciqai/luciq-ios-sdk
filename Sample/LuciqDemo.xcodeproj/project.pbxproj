@@ -8,7 +8,6 @@
 
 /* Begin PBXFileReference section */
 		602DF5962E6E354200E93A13 /* LuciqSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuciqSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		602DF5B32E6E3CCE00E93A13 /* LuciqSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:56S6Q9SA8U:Instabug Inc"; lastKnownFileType = wrapper.xcframework; name = LuciqSDK.xcframework; path = "../ios/Instabug/Luciq-SDK-XCFramework/LuciqSDK.xcframework"; sourceTree = "<group>"; };
 		603E833D2E6DCA1B000A30BC /* LuciqUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuciqUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,21 +71,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		602DF5B22E6E3CCE00E93A13 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				602DF5B32E6E3CCE00E93A13 /* LuciqSDK.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		603E83342E6DCA1B000A30BC = {
 			isa = PBXGroup;
 			children = (
 				602DF5AE2E6E39DF00E93A13 /* SharedResources */,
 				603E833F2E6DCA1B000A30BC /* LuciqUIKitDemo */,
 				602DF5972E6E354200E93A13 /* LuciqSwiftUIDemo */,
-				602DF5B22E6E3CCE00E93A13 /* Frameworks */,
 				603E833E2E6DCA1B000A30BC /* Products */,
 			);
 			sourceTree = "<group>";
