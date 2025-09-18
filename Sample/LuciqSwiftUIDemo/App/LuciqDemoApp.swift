@@ -12,7 +12,7 @@ import LuciqSDK
 @main
 struct LuciqDemoApp: App {
     
-    private let appToken = "<#Your token here#>"
+    private let appToken = <#Your token here#>
     
     init() {
         Luciq.start(withToken: appToken, invocationEvents: .floatingButton)
