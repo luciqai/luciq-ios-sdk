@@ -55,6 +55,7 @@ struct HomeScreen: View {
                 }
             }
         }
+        .luciqTracedView(name: "Home Screen")
         .onAppear(perform: executeHelloWorldRequest)
     }
     

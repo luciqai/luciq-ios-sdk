@@ -38,6 +38,7 @@ struct SettingsView: View {
         .actionSheet(isPresented: $showActionSheet) {
             makeActionSheet()
         }
+        .luciqTracedView(name: "Settings Screen")
     }
     
     @ViewBuilder
