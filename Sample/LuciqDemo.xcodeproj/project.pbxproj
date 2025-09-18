@@ -6,38 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		602DF5B42E6E3CCE00E93A13 /* LuciqSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602DF5B32E6E3CCE00E93A13 /* LuciqSDK.xcframework */; };
-		602DF5B52E6E3CCE00E93A13 /* LuciqSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 602DF5B32E6E3CCE00E93A13 /* LuciqSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		602DF5B72E6E432300E93A13 /* LuciqSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602DF5B32E6E3CCE00E93A13 /* LuciqSDK.xcframework */; };
-		602DF5B82E6E432300E93A13 /* LuciqSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 602DF5B32E6E3CCE00E93A13 /* LuciqSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		602DF5B62E6E3CCF00E93A13 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				602DF5B52E6E3CCE00E93A13 /* LuciqSDK.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		602DF5B92E6E432300E93A13 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				602DF5B82E6E432300E93A13 /* LuciqSDK.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		602DF5962E6E354200E93A13 /* LuciqSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuciqSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602DF5B32E6E3CCE00E93A13 /* LuciqSDK.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:56S6Q9SA8U:Instabug Inc"; lastKnownFileType = wrapper.xcframework; name = LuciqSDK.xcframework; path = "../ios/Instabug/Luciq-SDK-XCFramework/LuciqSDK.xcframework"; sourceTree = "<group>"; };
@@ -91,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				602DF5B72E6E432300E93A13 /* LuciqSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				602DF5B42E6E3CCE00E93A13 /* LuciqSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +110,6 @@
 				602DF5922E6E354200E93A13 /* Sources */,
 				602DF5932E6E354200E93A13 /* Frameworks */,
 				602DF5942E6E354200E93A13 /* Resources */,
-				602DF5B92E6E432300E93A13 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,7 +133,6 @@
 				603E83392E6DCA1B000A30BC /* Sources */,
 				603E833A2E6DCA1B000A30BC /* Frameworks */,
 				603E833B2E6DCA1B000A30BC /* Resources */,
-				602DF5B62E6E3CCF00E93A13 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
