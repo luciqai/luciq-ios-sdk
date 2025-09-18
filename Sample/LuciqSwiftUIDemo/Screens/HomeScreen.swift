@@ -24,9 +24,9 @@ struct HomeScreen: View {
         var surveyToken: String? {
             switch self {
             case .showNpsSurvey:
-                return "WTMvHW4ZQwQjsVCY9gsIgA"
+                return <#Your NPS Survey Token#>
             case .showMultiQuestionSurvey:
-                return "FeOS11wGXcuYgIukm4kFXw"
+                return <#Your Multi Question Survey Token#>
             default:
                 return nil
             }
