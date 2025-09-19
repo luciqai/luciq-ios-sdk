@@ -36,26 +36,27 @@ struct HomeScreen: View {
     // MARK: - View
     
     var body: some View {
-        NavigationView {
-            ZStack {
-                Color
-                    .background
-                    .ignoresSafeArea()
-                
-                makeListView()
-            }
-            .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle("Luciq")
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    NavigationLink(destination: SettingsView()) {
-                        Image(systemName: "gearshape")
-                            .foregroundColor(Color.appPrimary)
+        LuciqTracedView(name: "Home Screen") {
+            NavigationView {
+                ZStack {
+                    Color
+                        .background
+                        .ignoresSafeArea()
+                    
+                    makeListView()
+                }
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationTitle("Luciq")
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        NavigationLink(destination: SettingsView()) {
+                            Image(systemName: "gearshape")
+                                .foregroundColor(Color.appPrimary)
+                        }
                     }
                 }
             }
         }
-        .luciqTracedView(name: "Home Screen")
         .onAppear(perform: executeHelloWorldRequest)
     }
     

@@ -27,18 +27,19 @@ struct SettingsView: View {
     // MARK: - View
     
     var body: some View {
-        ZStack {
-            Color
-                .background
-                .ignoresSafeArea()
-            
-            makeListView()
+        LuciqTracedView(name: "Settings Screen") {
+            ZStack {
+                Color
+                    .background
+                    .ignoresSafeArea()
+                
+                makeListView()
+            }
+            .navigationTitle("Settings")
+            .actionSheet(isPresented: $showActionSheet) {
+                makeActionSheet()
+            }
         }
-        .navigationTitle("Settings")
-        .actionSheet(isPresented: $showActionSheet) {
-            makeActionSheet()
-        }
-        .luciqTracedView(name: "Settings Screen")
     }
     
     @ViewBuilder
