@@ -43,7 +43,20 @@ Then drag Luciq.framework into your Xcode project.
 
 ### Swift Package Manager
 
-To integrate Luciq into your Xcode project using SPM, please refer to https://github.com/luciqai/luciq-ios-sdk
+1. Open your project in Xcode.
+2. Go to File → Add Package Dependencies….
+3. In Search or Enter Package URL, paste:
+```
+https://github.com/luciqai/luciq-ios-sdk
+```
+4. Choose a Dependency Rule (recommended: Up to Next Major Version).
+5. Click Add Package.
+6. In Add to Target, select your app, then Add Package.
+7. Verify linkage: Targets → YourApp → General → Frameworks, Libraries, and Embedded Content should list the package.
+8. Build (⌘B) to confirm resolution.
+
+**Tips**
+- To fix resolution issues: File → Packages → Reset Package Caches → Resolve Package Versions.
 
 ### Manually
 
@@ -58,7 +71,7 @@ Follow these steps to integrate the Luciq SDK into your iOS project:
 
 3. **Add the Framework to Your Project:**
    - Open your project in Xcode.
-   - Navigate to your project's **General** tab.
+   - Navigate to your app target **General** tab.
    - Scroll down to the **Frameworks, Libraries, and Embedded Content** section.
    - Click the `+` button, then select **Add Files**.
    - Choose the `Luciq.xcframework` from the extracted folder, then click **Open**.
