@@ -1,5 +1,5 @@
 # Luciq iOS SDK
-![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Instabug.svg)
+![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Luciq.svg)
 
 Luciq is the Agentic Observability Platform built for Mobile.
 
@@ -101,7 +101,7 @@ Follow these steps to integrate the Luciq SDK into your iOS project:
     ```
     ```objective-c
     // Objective-C
-    [Luciq startWithToken:<#app token#> invocationEvents:IBGInvocationEventShake];
+    [Luciq startWithToken:<#app token#> invocationEvents:LCQInvocationEventShake];
     ```
     Make sure to replace `app_token` with your application token. Find it [here](https://luciq.ai/app/sdk/).
 
