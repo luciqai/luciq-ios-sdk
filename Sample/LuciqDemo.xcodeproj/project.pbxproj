@@ -27,21 +27,11 @@
 			);
 			target = 603E833C2E6DCA1B000A30BC /* LuciqUIKitDemo */;
 		};
-		6099D2DB2E7D4E0F00FF4E9B /* Exceptions for "LuciqSwiftUIDemo" folder in "LuciqSwiftUIDemo" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Tools/LuciqSwiftUIIntegrator,
-			);
-			target = 602DF5952E6E354200E93A13 /* LuciqSwiftUIDemo */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		602DF5972E6E354200E93A13 /* LuciqSwiftUIDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				6099D2DB2E7D4E0F00FF4E9B /* Exceptions for "LuciqSwiftUIDemo" folder in "LuciqSwiftUIDemo" target */,
-			);
 			path = LuciqSwiftUIDemo;
 			sourceTree = "<group>";
 		};
