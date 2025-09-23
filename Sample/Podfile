@@ -5,7 +5,7 @@ target 'LuciqSwiftUIDemo' do
   use_frameworks!
 
   # Pods for LuciqSwiftUIDemo
-  pod 'Luciq', :podspec => '../Luciq.podspec'
+  pod 'Luciq'
 
 end
 
@@ -13,6 +13,6 @@ target 'LuciqUIKitDemo' do
   use_frameworks!
 
   # Pods for LuciqUIKitDemo
-  pod 'Luciq', :podspec => '../Luciq.podspec'
+  pod 'Luciq'
 
 end
