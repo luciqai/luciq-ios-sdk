@@ -314,6 +314,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 <p>Made with ❤️ by the Luciq team</p>
 
-<img src=".github/assets/luciq-footer.png" alt="Luciq" width="60" />
+<img src=".github/assets/luciq-logo.png" alt="Luciq" width="60" />
 
 </div>
