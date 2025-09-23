@@ -13,7 +13,7 @@ For more info, visit [Luciq.ai](http://luciq.ai/).
 
 ### CocoaPods
 
-To integrate Luciq into your Xcode project using [CocoaPods](https://cocoapods.org), add it to your `Podfile`:
+To integrate Luciq into your Xcode project using CocoaPods, add it to your `Podfile`:
 
 ```ruby
 pod 'Luciq'
@@ -27,7 +27,7 @@ $ pod install
 
 ### Carthage
 
-To integrate Luciq into your Xcode project using [Carthage](https://github.com/Carthage/Carthage), add it to your `Cartfile`:
+To integrate Luciq into your Xcode project using Carthage, add it to your `Cartfile`:
 
 ```
 binary "https://raw.githubusercontent.com/luciqai/luciq-ios-sdk/main/Luciq.json"
@@ -103,7 +103,7 @@ Follow these steps to integrate the Luciq SDK into your iOS project:
     // Objective-C
     [Luciq startWithToken:<#app token#> invocationEvents:LCQInvocationEventShake];
     ```
-    Make sure to replace `app_token` with your application token. Find it [here](https://luciq.ai/app/sdk/).
+    Make sure to replace `app_token` with your application token.
 
 ## Notes
 Luciq needs access to the microphone and photo library to be able to let users add audio and video attachments. Starting from iOS 10, apps that don’t provide a usage description for those 2 permissions would be rejected when submitted to the App Store.
