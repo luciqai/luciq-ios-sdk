@@ -27,13 +27,13 @@
 - [✨ Features](#-features)
 - [⚡ Quick Start](#-quick-start)
 - [📦 Installation](#-installation)
-  - [CocoaPods](#cocoapods)
   - [Swift Package Manager](#swift-package-manager)
+  - [CocoaPods](#cocoapods)
   - [Carthage](#carthage)
   - [Manual Installation](#manual-installation)
 - [🔧 Usage](#-usage)
 - [⚙️ Permissions](#️-permissions)
-- [🤝 Contributing](#-contributing)
+- [🐛 Issues & Feature Requests](#-issues--feature-requests)
 - [📜 License](#-license)
 - [💬 Support](#-support)
 
@@ -89,33 +89,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 Choose your preferred installation method:
 
-### <img src="https://github.com/CocoaPods/shared_resources/raw/master/media/logo-small.png" width="20" /> CocoaPods
-
-Add to your `Podfile`:
-
-```ruby
-target 'YourApp' do
-  pod 'Luciq'
-end
-```
-
-Then install:
-```bash
-pod install
-```
-
-<details>
-<summary>💡 CocoaPods Tips</summary>
-
-- Make sure you have the latest CocoaPods version: `gem install cocoapods`
-- If you encounter issues, try `pod repo update` first
-- Use `pod install --repo-update` for a fresh installation
-
-</details>
-
----
-
-### <img src="https://developer.apple.com/assets/elements/icons/swift-package-manager/swift-package-manager-96x96_2x.png" width="20" /> Swift Package Manager
+### Swift Package Manager
 
 **Recommended method for new projects**
 
@@ -143,7 +117,33 @@ Check `Project Settings` → `Your Target` → `General` → `Frameworks, Librar
 
 ---
 
-### <img src="https://github.com/Carthage/Carthage/raw/master/Logo/PNG/carthage-logo.png" width="20" /> Carthage
+### CocoaPods
+
+Add to your `Podfile`:
+
+```ruby
+target 'YourApp' do
+  pod 'Luciq'
+end
+```
+
+Then install:
+```bash
+pod install
+```
+
+<details>
+<summary>💡 CocoaPods Tips</summary>
+
+- Make sure you have the latest CocoaPods version: `gem install cocoapods`
+- If you encounter issues, try `pod repo update` first
+- Use `pod install --repo-update` for a fresh installation
+
+</details>
+
+---
+
+### Carthage
 
 Add to your `Cartfile`:
 
@@ -159,7 +159,7 @@ carthage update
 
 ---
 
-### 📁 Manual Installation
+### Manual Installation
 
 <details>
 <summary>Click to expand manual installation steps</summary>
