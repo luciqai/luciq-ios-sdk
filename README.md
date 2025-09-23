@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/luciqai/luciq-ios-sdk/main/.github/assets/luciq-logo.png" alt="Luciq" width="120" />
+  <img src=".github/assets/luciq-logo.png" alt="Luciq" width="120" />
     
   <p><strong>🚀 The Agentic Observability Platform built for Mobile</strong></p>
   
@@ -314,6 +314,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 <p>Made with ❤️ by the Luciq team</p>
 
-<img src="https://raw.githubusercontent.com/luciqai/luciq-ios-sdk/main/.github/assets/luciq-footer.png" alt="Luciq" width="60" />
+<img src=".github/assets/luciq-footer.png" alt="Luciq" width="60" />
 
 </div>
