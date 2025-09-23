@@ -1,125 +1,319 @@
-# Luciq iOS SDK
-![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Luciq.svg)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/luciqai/luciq-ios-sdk/main/.github/assets/luciq-logo.png" alt="Luciq" width="120" />
+    
+  <p><strong>🚀 The Agentic Observability Platform built for Mobile</strong></p>
+  
+  [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Luciq.svg?style=for-the-badge&color=blue)](https://cocoapods.org/pods/Luciq)
+  [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg?style=for-the-badge)](https://github.com/apple/swift-package-manager)
+  [![License](https://img.shields.io/badge/license-MIT-orange.svg?style=for-the-badge)](LICENSE.md)
+  [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=for-the-badge)](https://developer.apple.com/ios/)
+  
+  <br />
+  
+  Our intelligent AI agents help you capture rich, contextual data for every issue, including full session replays, console logs, and detailed network requests, to proactively detect, prioritize, and resolve problems automatically.
+  
+  <strong>Ship faster, deliver frustration-free user sessions, and focus on building what matters.</strong>
+  
+  <br />
+  
+  [🌐 Website](https://luciq.ai) • [📖 Documentation](https://docs.luciq.ai) • [💬 Support](https://luciq.ai/support)
+  
+</div>
 
-Luciq is the Agentic Observability Platform built for Mobile.
+---
 
-Our intelligent AI agents help you capture rich, contextual data for every issue, including full session replays, console logs, and detailed network requests, to proactively detect, prioritize, and resolve problems automatically. From traditional bug reporting to proactive resolution, Luciq equips you with the building blocks to your app’s success.
+## 📋 Table of Contents
 
-Ship faster, deliver frustration-free user sessions, and focus on building what matters.
+- [✨ Features](#-features)
+- [⚡ Quick Start](#-quick-start)
+- [📦 Installation](#-installation)
+  - [CocoaPods](#cocoapods)
+  - [Swift Package Manager](#swift-package-manager)
+  - [Carthage](#carthage)
+  - [Manual Installation](#manual-installation)
+- [🔧 Usage](#-usage)
+- [⚙️ Permissions](#️-permissions)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+- [💬 Support](#-support)
 
-For more info, visit [Luciq.ai](https://luciq.ai/).
+---
 
-## Installation
+## ✨ Features
 
-### CocoaPods
+<table>
+<tr>
+<td width="33%">
+<h4>🎯 Proactive Issue Detection</h4>
+AI-powered monitoring that catches issues before they impact users
+</td>
+<td width="33%">
+<h4>📱 Full Session Replays</h4>
+Rich, contextual data capture with complete user session recordings
+</td>
+<td width="33%">
+<h4>🔍 Detailed Analytics</h4>
+Console logs, network requests, and comprehensive debugging information
+</td>
+</tr>
+</table>
 
-To integrate Luciq into your Xcode project using CocoaPods, add it to your `Podfile`:
+---
+
+## ⚡ Quick Start
+
+Get up and running with Luciq in just a few steps:
+
+### 1. Install the SDK
+```bash
+# Using Swift Package Manager (Recommended)
+# Add in Xcode: File → Add Package Dependencies
+https://github.com/luciqai/luciq-ios-sdk
+```
+
+### 2. Initialize in your App Delegate
+```swift
+import LuciqSDK
+
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    Luciq.start(withToken: "YOUR_APP_TOKEN", invocationEvents: .shake)
+    return true
+}
+```
+
+### 3. Start capturing insights! 🎉
+
+---
+
+## 📦 Installation
+
+Choose your preferred installation method:
+
+### <img src="https://github.com/CocoaPods/shared_resources/raw/master/media/logo-small.png" width="20" /> CocoaPods
+
+Add to your `Podfile`:
 
 ```ruby
-pod 'Luciq'
+target 'YourApp' do
+  pod 'Luciq'
+end
 ```
 
-Then, run the following command:
-
+Then install:
 ```bash
-$ pod install
+pod install
 ```
 
-### Carthage
+<details>
+<summary>💡 CocoaPods Tips</summary>
 
-To integrate Luciq into your Xcode project using Carthage, add it to your `Cartfile`:
+- Make sure you have the latest CocoaPods version: `gem install cocoapods`
+- If you encounter issues, try `pod repo update` first
+- Use `pod install --repo-update` for a fresh installation
+
+</details>
+
+---
+
+### <img src="https://developer.apple.com/assets/elements/icons/swift-package-manager/swift-package-manager-96x96_2x.png" width="20" /> Swift Package Manager
+
+**Recommended method for new projects**
+
+1. 📂 **Open your project** in Xcode
+2. 🔗 **Add Package Dependency**: `File` → `Add Package Dependencies…`
+3. 📋 **Enter URL**:
+   ```
+   https://github.com/luciqai/luciq-ios-sdk
+   ```
+4. ⚙️ **Configure**: Choose "Up to Next Major Version"
+5. ➕ **Add Package** and select your target
+6. 🔨 **Build** (`⌘B`) to confirm installation
+
+<details>
+<summary>🔧 Troubleshooting SPM</summary>
+
+**Package Resolution Issues?**
+- `File` → `Packages` → `Reset Package Caches`
+- `File` → `Packages` → `Resolve Package Versions`
+
+**Verify Installation:**
+Check `Project Settings` → `Your Target` → `General` → `Frameworks, Libraries, and Embedded Content`
+
+</details>
+
+---
+
+### <img src="https://github.com/Carthage/Carthage/raw/master/Logo/PNG/carthage-logo.png" width="20" /> Carthage
+
+Add to your `Cartfile`:
 
 ```
 binary "https://raw.githubusercontent.com/luciqai/luciq-ios-sdk/main/Luciq.json"
 ```
 
-Then, run the following command:
+Install and integrate:
+```bash
+carthage update
+# Drag Luciq.framework into your Xcode project
+```
+
+---
+
+### 📁 Manual Installation
+
+<details>
+<summary>Click to expand manual installation steps</summary>
+
+### Step-by-Step Guide
+
+1. **📥 Download SDK**
+   - Visit [Latest Release](https://github.com/luciqai/luciq-ios-sdk/releases/latest)
+   - Download `Luciq-XCFramework.zip`
+
+2. **📂 Extract & Add to Project**
+   - Unzip the downloaded file
+   - Open your Xcode project
+   - Navigate to your app target's **General** tab
+   - Under **Frameworks, Libraries, and Embedded Content**, click `+`
+   - Select **Add Files** and choose `Luciq.xcframework`
+
+3. **⚙️ Configure Embedding**
+   - Set **Embed** option to `Embed & Sign`
+
+4. **✅ Verify Installation**
+   - Build your project (`⌘B`) to confirm successful integration
+
+</details>
+
+---
+
+## 🔧 Usage
+
+### Basic Setup
+
+Import and initialize Luciq in your app:
+
+<table>
+<tr>
+<th width="50%">Swift</th>
+<th width="50%">Objective-C</th>
+</tr>
+<tr>
+<td>
+
+```swift
+import LuciqSDK
+
+// In AppDelegate
+func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+) -> Bool {
+    Luciq.start(
+        withToken: "YOUR_APP_TOKEN", 
+        invocationEvents: .shake
+    )
+    return true
+}
+```
+
+</td>
+<td>
+
+```objective-c
+#import <LuciqSDK/LuciqSDK.h>
+
+// In AppDelegate
+- (BOOL)application:(UIApplication *)application 
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [Luciq startWithToken:@"YOUR_APP_TOKEN" 
+         invocationEvents:LCQInvocationEventShake];
+    return YES;
+}
+```
+
+</td>
+</tr>
+</table>
+
+> ⚠️ **Important**: Replace `YOUR_APP_TOKEN` with your actual application token from the [Luciq Dashboard](https://dashboard.luciq.ai)
+
+---
+
+## ⚙️ Permissions
+
+### Required Permissions
+
+Luciq requires specific permissions for media attachments. Add these to your `Info.plist`:
+
+```xml
+<key>NSMicrophoneUsageDescription</key>
+<string>$(PRODUCT_NAME) needs access to the microphone to attach voice notes to feedback reports.</string>
+
+<key>NSPhotoLibraryUsageDescription</key>
+<string>$(PRODUCT_NAME) needs access to your photo library to attach images to feedback reports.</string>
+```
+
+### 💡 Permission Guidelines
+
+<table>
+<tr>
+<td width="50%">
+<h4>📱 User-Friendly Descriptions</h4>
+Write clear, honest descriptions that explain exactly why you need each permission.
+</td>
+<td width="50%">
+<h4>🔒 Privacy-First Approach</h4>
+Permissions are only requested when users attempt to use attachment features.
+</td>
+</tr>
+</table>
+
+> **Note**: Permission dialogs only appear when users actively try to attach voice notes or photos through Luciq's interface.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+1. 🍴 **Fork** the repository
+2. 🌿 **Create** a feature branch: `git checkout -b feature/amazing-feature`
+3. 💻 **Commit** your changes: `git commit -m 'Add amazing feature'`
+4. 📤 **Push** to the branch: `git push origin feature/amazing-feature`
+5. 🔄 **Open** a Pull Request
+
+### Development Setup
 
 ```bash
-$ carthage update
+# Clone the repository
+git clone https://github.com/luciqai/luciq-ios-sdk.git
+cd luciq-ios-sdk
+
+# Open in Xcode
+open Sample/LuciqDemo.xcodeproj
 ```
 
-Then drag Luciq.framework into your Xcode project.
+---
 
-### Swift Package Manager
+## 📜 License
 
-1. Open your project in Xcode.
-2. Go to File → Add Package Dependencies….
-3. In Search or Enter Package URL, paste:
-```
-https://github.com/luciqai/luciq-ios-sdk
-```
-4. Choose a Dependency Rule (recommended: Up to Next Major Version).
-5. Click Add Package.
-6. In Add to Target, select your app, then Add Package.
-7. Verify linkage: Targets → YourApp → General → Frameworks, Libraries, and Embedded Content should list the package.
-8. Build (⌘B) to confirm resolution.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-**Tips**
-- To fix resolution issues: File → Packages → Reset Package Caches → Resolve Package Versions.
+---
 
-### Manually
+## 💬 Support
 
-Follow these steps to integrate the Luciq SDK into your iOS project:
+<div align="center">
 
-1. **Download the Latest Luciq SDK Release:**
-   - [Go to Luciq SDK latest release](https://github.com/luciqai/luciq-ios-sdk/releases/latest)
-   - Click on `Luciq-XCFramework.zip` to download the file.
+### Need Help?
 
-2. **Extract the Zip File:**
-   - Unzip the downloaded file to reveal the `Luciq.xcframework`.
+🌐 **[Visit our website](https://luciq.ai)** • 📖 **[Read the docs](https://docs.luciq.ai/docs/ios-overview)** • 💬 **[Get support](https://luciq.ai/support)**
 
-3. **Add the Framework to Your Project:**
-   - Open your project in Xcode.
-   - Navigate to your app target **General** tab.
-   - Scroll down to the **Frameworks, Libraries, and Embedded Content** section.
-   - Click the `+` button, then select **Add Files**.
-   - Choose the `Luciq.xcframework` from the extracted folder, then click **Open**.
+---
 
-4. **Set Embed Option:**
-   - In the **Embed** column next to `Luciq.xcframework`, select `Embed & Sign`.
+<p>Made with ❤️ by the Luciq team</p>
 
-## Usage
+<img src="https://raw.githubusercontent.com/luciqai/luciq-ios-sdk/main/.github/assets/luciq-footer.png" alt="Luciq" width="60" />
 
-1. Import Luciq framework header in your app delegate
-
-    ```swift
-    // Swift
-    import LuciqSDK
-    ```
-    
-    ```objective-c
-    // Objective-C
-    #import <LuciqSDK/LuciqSDK.h>
-    ```
-
-2. Add the following to your app delegate's application:didFinishLaunchingWithOptions: method.
-    
-    ```swift
-    // Swift
-    Luciq.start(withToken: <#app token#>, invocationEvents: .shake)
-    ```
-    ```objective-c
-    // Objective-C
-    [Luciq startWithToken:<#app token#> invocationEvents:LCQInvocationEventShake];
-    ```
-    Make sure to replace `app_token` with your application token.
-
-## Notes
-Luciq needs access to the microphone and photo library to be able to let users add audio and video attachments. Starting from iOS 10, apps that don’t provide a usage description for those 2 permissions would be rejected when submitted to the App Store.
-
-For your app not to be rejected, you’ll need to add the following 2 keys to your app’s info.plist file with text explaining to the user why those permissions are needed:
-
-* `NSMicrophoneUsageDescription`
-* `NSPhotoLibraryUsageDescription`
-
-If your app doesn’t already access the microphone or photo library, we recommend using a usage description like:
-
-* "`<app name>` needs access to the microphone to be able to attach voice notes."
-* "`<app name>` needs access to your photo library for you to be able to attach images."
-
-**The permission alert for accessing the microphone/photo library will NOT appear unless users attempt to attach a voice note/photo while using Luciq.**
-    
-## More
-
-You can also check out our [API Reference](https://docs.luciq.ai/docs/ios-overview) for more detailed information about our SDK.
+</div>
