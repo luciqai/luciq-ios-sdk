@@ -273,26 +273,50 @@ Permissions are only requested when users attempt to use attachment features.
 
 ---
 
-## 🤝 Contributing
+## 🐛 Issues & Feature Requests
 
-We welcome contributions! Here's how you can help:
+Found a bug or have an idea for improvement? We'd love to hear from you!
 
-1. 🍴 **Fork** the repository
-2. 🌿 **Create** a feature branch: `git checkout -b feature/amazing-feature`
-3. 💻 **Commit** your changes: `git commit -m 'Add amazing feature'`
-4. 📤 **Push** to the branch: `git push origin feature/amazing-feature`
-5. 🔄 **Open** a Pull Request
+### 🔍 Reporting Bugs
 
-### Development Setup
+Before reporting a bug, please:
 
-```bash
-# Clone the repository
-git clone https://github.com/luciqai/luciq-ios-sdk.git
-cd luciq-ios-sdk
+1. **🔍 Search existing issues** to avoid duplicates
+2. **📱 Test on latest version** of the SDK
+3. **📝 Use our bug report template** for faster resolution
 
-# Open in Xcode
-open Sample/LuciqDemo.xcodeproj
-```
+[**🐛 Report a Bug**](https://github.com/luciqai/luciq-ios-sdk/issues/new?template=bug_report.md)
+
+### 💡 Feature Requests
+
+Have an idea for a new feature?
+
+1. **💭 Check existing requests** to see if it's already suggested
+2. **📋 Describe your use case** and expected behavior
+
+### 📋 Issue Guidelines
+
+<table>
+<tr>
+<td width="50%">
+<h4>🐛 For Bug Reports Include:</h4>
+• iOS version and device model<br>
+• Luciq SDK version<br>
+• Xcode version<br>
+• Steps to reproduce<br>
+• Expected vs actual behavior<br>
+• Crash logs or screenshots
+</td>
+<td width="50%">
+<h4>💡 For Feature Requests Include:</h4>
+• Clear use case description<br>
+• Expected behavior<br>
+• Why this would be valuable<br>
+• Any relevant mockups or examples<br>
+• Priority/urgency level
+</td>
+</tr>
+</table>
 
 ---
 
