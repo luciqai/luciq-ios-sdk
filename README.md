@@ -41,22 +41,14 @@
 
 ## ✨ Features
 
-<table>
-<tr>
-<td width="33%">
-<h4>🎯 Proactive Issue Detection</h4>
+### 🎯 Proactive Issue Detection
 AI-powered monitoring that catches issues before they impact users
-</td>
-<td width="33%">
-<h4>📱 Full Session Replays</h4>
+
+### 📱 Full Session Replays  
 Rich, contextual data capture with complete user session recordings
-</td>
-<td width="33%">
-<h4>🔍 Detailed Analytics</h4>
+
+### 🔍 Detailed Analytics
 Console logs, network requests, and comprehensive debugging information
-</td>
-</tr>
-</table>
 
 ---
 
@@ -193,13 +185,7 @@ carthage update
 
 Import and initialize Luciq in your app:
 
-<table>
-<tr>
-<th width="50%">Swift</th>
-<th width="50%">Objective-C</th>
-</tr>
-<tr>
-<td>
+#### Swift
 
 ```swift
 import LuciqSDK
@@ -217,8 +203,7 @@ func application(
 }
 ```
 
-</td>
-<td>
+#### Objective-C
 
 ```objective-c
 #import <LuciqSDK/LuciqSDK.h>
@@ -231,10 +216,6 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     return YES;
 }
 ```
-
-</td>
-</tr>
-</table>
 
 > ⚠️ **Important**: Replace `YOUR_APP_TOKEN` with your actual application token from the [Luciq Dashboard](https://dashboard.luciq.ai)
 
@@ -256,18 +237,11 @@ Luciq requires specific permissions for media attachments. Add these to your `In
 
 ### 💡 Permission Guidelines
 
-<table>
-<tr>
-<td width="50%">
-<h4>📱 User-Friendly Descriptions</h4>
+#### 📱 User-Friendly Descriptions
 Write clear, honest descriptions that explain exactly why you need each permission.
-</td>
-<td width="50%">
-<h4>🔒 Privacy-First Approach</h4>
+
+#### 🔒 Privacy-First Approach
 Permissions are only requested when users attempt to use attachment features.
-</td>
-</tr>
-</table>
 
 > **Note**: Permission dialogs only appear when users actively try to attach voice notes or photos through Luciq's interface.
 
@@ -296,27 +270,20 @@ Have an idea for a new feature?
 
 ### 📋 Issue Guidelines
 
-<table>
-<tr>
-<td width="50%">
-<h4>🐛 For Bug Reports Include:</h4>
-• iOS version and device model<br>
-• Luciq SDK version<br>
-• Xcode version<br>
-• Steps to reproduce<br>
-• Expected vs actual behavior<br>
+#### 🐛 For Bug Reports Include:
+• iOS version and device model
+• Luciq SDK version
+• Xcode version
+• Steps to reproduce
+• Expected vs actual behavior
 • Crash logs or screenshots
-</td>
-<td width="50%">
-<h4>💡 For Feature Requests Include:</h4>
-• Clear use case description<br>
-• Expected behavior<br>
-• Why this would be valuable<br>
-• Any relevant mockups or examples<br>
+
+#### 💡 For Feature Requests Include:
+• Clear use case description
+• Expected behavior
+• Why this would be valuable
+• Any relevant mockups or examples
 • Priority/urgency level
-</td>
-</tr>
-</table>
 
 ---
 
