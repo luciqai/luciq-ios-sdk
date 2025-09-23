@@ -7,7 +7,7 @@ Our intelligent AI agents help you capture rich, contextual data for every issue
 
 Ship faster, deliver frustration-free user sessions, and focus on building what matters.
 
-For more info, visit [Luciq.ai](http://luciq.ai/).
+For more info, visit [Luciq.ai](https://luciq.ai/).
 
 ## Installation
 
