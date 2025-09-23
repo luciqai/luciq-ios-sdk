@@ -6,9 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8960CD87D184F05B11F316C5 /* Pods_LuciqSwiftUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF73012EA1D8E373986892B /* Pods_LuciqSwiftUIDemo.framework */; };
+		ECD8A8A8179F2F40121306C8 /* Pods_LuciqUIKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D8CF2C1D37059EDEA7DF4F /* Pods_LuciqUIKitDemo.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		0AF73012EA1D8E373986892B /* Pods_LuciqSwiftUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuciqSwiftUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDB4F9D8FF34CF33B08A50F /* Pods-LuciqUIKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuciqUIKitDemo.release.xcconfig"; path = "Target Support Files/Pods-LuciqUIKitDemo/Pods-LuciqUIKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		11800A7599B97AAF98E9F598 /* Pods-LuciqSwiftUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuciqSwiftUIDemo.release.xcconfig"; path = "Target Support Files/Pods-LuciqSwiftUIDemo/Pods-LuciqSwiftUIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5385996BD74583D0B5670F8A /* Pods-LuciqSwiftUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuciqSwiftUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-LuciqSwiftUIDemo/Pods-LuciqSwiftUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		602DF5962E6E354200E93A13 /* LuciqSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuciqSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603E833D2E6DCA1B000A30BC /* LuciqUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuciqUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D8CF2C1D37059EDEA7DF4F /* Pods_LuciqUIKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuciqUIKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F15E12FBC253FB0E4DCF13 /* Pods-LuciqUIKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuciqUIKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-LuciqUIKitDemo/Pods-LuciqUIKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8960CD87D184F05B11F316C5 /* Pods_LuciqSwiftUIDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECD8A8A8179F2F40121306C8 /* Pods_LuciqUIKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,8 @@
 				603E833F2E6DCA1B000A30BC /* LuciqUIKitDemo */,
 				602DF5972E6E354200E93A13 /* LuciqSwiftUIDemo */,
 				603E833E2E6DCA1B000A30BC /* Products */,
+				700309772AA77C81FF24D671 /* Pods */,
+				AAE718AB485F132D1203B2DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +105,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		700309772AA77C81FF24D671 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5385996BD74583D0B5670F8A /* Pods-LuciqSwiftUIDemo.debug.xcconfig */,
+				11800A7599B97AAF98E9F598 /* Pods-LuciqSwiftUIDemo.release.xcconfig */,
+				A8F15E12FBC253FB0E4DCF13 /* Pods-LuciqUIKitDemo.debug.xcconfig */,
+				0DDB4F9D8FF34CF33B08A50F /* Pods-LuciqUIKitDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AAE718AB485F132D1203B2DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AF73012EA1D8E373986892B /* Pods_LuciqSwiftUIDemo.framework */,
+				75D8CF2C1D37059EDEA7DF4F /* Pods_LuciqUIKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 602DF5A12E6E354400E93A13 /* Build configuration list for PBXNativeTarget "LuciqSwiftUIDemo" */;
 			buildPhases = (
+				6AE8E468C28ECC467FDD61A9 /* [CP] Check Pods Manifest.lock */,
 				602DF5922E6E354200E93A13 /* Sources */,
 				602DF5932E6E354200E93A13 /* Frameworks */,
 				602DF5942E6E354200E93A13 /* Resources */,
+				254859256378BDA92724BB7C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -110,8 +147,6 @@
 				602DF5AE2E6E39DF00E93A13 /* SharedResources */,
 			);
 			name = LuciqSwiftUIDemo;
-			packageProductDependencies = (
-			);
 			productName = LuciqSwiftUIDemo;
 			productReference = 602DF5962E6E354200E93A13 /* LuciqSwiftUIDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -120,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 603E83502E6DCA1D000A30BC /* Build configuration list for PBXNativeTarget "LuciqUIKitDemo" */;
 			buildPhases = (
+				86753B67263E1F2553AD612A /* [CP] Check Pods Manifest.lock */,
 				603E83392E6DCA1B000A30BC /* Sources */,
 				603E833A2E6DCA1B000A30BC /* Frameworks */,
 				603E833B2E6DCA1B000A30BC /* Resources */,
+				81977BF73F3DD4CA53A9D67A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,8 +169,6 @@
 				603E833F2E6DCA1B000A30BC /* LuciqUIKitDemo */,
 			);
 			name = LuciqUIKitDemo;
-			packageProductDependencies = (
-			);
 			productName = LuciqDemo;
 			productReference = 603E833D2E6DCA1B000A30BC /* LuciqUIKitDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -193,6 +228,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		254859256378BDA92724BB7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuciqSwiftUIDemo/Pods-LuciqSwiftUIDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuciqSwiftUIDemo/Pods-LuciqSwiftUIDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuciqSwiftUIDemo/Pods-LuciqSwiftUIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE8E468C28ECC467FDD61A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuciqSwiftUIDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81977BF73F3DD4CA53A9D67A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuciqUIKitDemo/Pods-LuciqUIKitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuciqUIKitDemo/Pods-LuciqUIKitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuciqUIKitDemo/Pods-LuciqUIKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86753B67263E1F2553AD612A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuciqUIKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		602DF5922E6E354200E93A13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -213,6 +329,7 @@
 /* Begin XCBuildConfiguration section */
 		602DF5A22E6E354400E93A13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5385996BD74583D0B5670F8A /* Pods-LuciqSwiftUIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -245,6 +362,7 @@
 		};
 		602DF5A32E6E354400E93A13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11800A7599B97AAF98E9F598 /* Pods-LuciqSwiftUIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -277,6 +395,7 @@
 		};
 		603E83512E6DCA1D000A30BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F15E12FBC253FB0E4DCF13 /* Pods-LuciqUIKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,6 +426,7 @@
 		};
 		603E83522E6DCA1D000A30BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDB4F9D8FF34CF33B08A50F /* Pods-LuciqUIKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -372,7 +492,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -435,7 +554,6 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
