@@ -2,7 +2,6 @@
 //  HomeScreen.swift
 //  LuciqSwiftUIDemo
 //
-//  Created by Mohamed Salah on 08/09/2025.
 //  Copyright © 2025 Luciq. All rights reserved.
 //
 

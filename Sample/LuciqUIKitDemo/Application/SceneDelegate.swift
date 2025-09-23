@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  LuciqUIKitDemo
 //
-//  Created by Mohamed Salah on 07/09/2025.
 //  Copyright © 2025 Luciq. All rights reserved.
 //
 
