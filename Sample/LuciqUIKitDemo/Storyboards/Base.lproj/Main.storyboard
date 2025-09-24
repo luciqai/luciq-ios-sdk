@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="1ev-ET-HSP">
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Luciq-->
+        <scene sceneID="Pxy-qc-jvk">
+            <objects>
+                <tableViewController id="lcT-oa-JOg" customClass="ViewController" customModule="LuciqUIKitDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="oAW-VT-wKU">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="HomeTableViewCell" id="S4y-DK-FcB">
+                                <rect key="frame" x="0.0" y="50" width="440" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S4y-DK-FcB" id="mAa-WO-1cN">
+                                    <rect key="frame" x="0.0" y="0.0" width="409.66666666666669" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="lcT-oa-JOg" id="rFZ-nX-NoN"/>
+                            <outlet property="delegate" destination="lcT-oa-JOg" id="Cep-oX-hFe"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Luciq" id="1iT-Wj-TDQ">
+                        <barButtonItem key="rightBarButtonItem" image="gearshape" catalog="system" id="gxZ-aW-tJI">
+                            <color key="tintColor" name="AppPrimaryColor"/>
+                            <connections>
+                                <segue destination="AC5-9G-dXE" kind="show" id="ehb-q1-Di9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hk7-PJ-6Qu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1433" y="223"/>
+        </scene>
+        <!--Settings Table View Controller-->
+        <scene sceneID="CLs-0s-uD4">
+            <objects>
+                <tableViewController id="AC5-9G-dXE" customClass="SettingsTableViewController" customModule="LuciqUIKitDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="uuq-Q4-9FG">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SettingsTableViewCell" id="aRN-G7-5Gz">
+                                <rect key="frame" x="0.0" y="50" width="440" height="47.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aRN-G7-5Gz" id="zCP-Ca-7qF">
+                                    <rect key="frame" x="0.0" y="0.0" width="409.66666666666669" height="47.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="AC5-9G-dXE" id="Exn-SO-Qt6"/>
+                            <outlet property="delegate" destination="AC5-9G-dXE" id="9TG-TM-NI7"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="8HF-4w-GLD"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JVa-ZX-ZgT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2324" y="223"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6vy-us-LgW">
+            <objects>
+                <navigationController id="1ev-ET-HSP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="X0H-IJ-ol7">
+                        <rect key="frame" x="0.0" y="62" width="440" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="AppPrimaryColor"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="lcT-oa-JOg" kind="relationship" relationship="rootViewController" id="8Ne-gL-v6B"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fL1-q8-GBo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="481" y="223"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gearshape" catalog="system" width="128" height="123"/>
+        <namedColor name="AppPrimaryColor">
+            <color red="0.039215686274509803" green="0.53725490196078429" blue="0.9882352941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BackgroundColor">
+            <color red="0.99999994039535522" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

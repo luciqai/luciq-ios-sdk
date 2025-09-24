@@ -1,0 +1,16 @@
+PODS:
+  - Luciq (18.0.0)
+
+DEPENDENCIES:
+  - Luciq
+
+SPEC REPOS:
+  trunk:
+    - Luciq
+
+SPEC CHECKSUMS:
+  Luciq: f364d44f0d57a236fcebac5220a99310a1b7d698
+
+PODFILE CHECKSUM: 32d58939764f47cfdbf999c44fc65d4b078f5c36
+
+COCOAPODS: 1.16.2
