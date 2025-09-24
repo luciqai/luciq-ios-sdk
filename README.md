@@ -93,9 +93,7 @@ Check `Project Settings` → `Your Target` → `General` → `Frameworks, Librar
 Add to your `Podfile`:
 
 ```ruby
-target 'YourApp' do
   pod 'Luciq'
-end
 ```
 
 Then install:
