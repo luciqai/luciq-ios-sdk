@@ -39,7 +39,7 @@ Then, run the following command:
 $ carthage update
 ```
 
-Then drag Luciq.framework into your Xcode project.
+Then drag LuciqSDK.framework into your Xcode project.
 
 ### Swift Package Manager
 
@@ -67,17 +67,17 @@ Follow these steps to integrate the Luciq SDK into your iOS project:
    - Click on `Luciq-XCFramework.zip` to download the file.
 
 2. **Extract the Zip File:**
-   - Unzip the downloaded file to reveal the `Luciq.xcframework`.
+   - Unzip the downloaded file to reveal the `LuciqSDK.xcframework`.
 
 3. **Add the Framework to Your Project:**
    - Open your project in Xcode.
    - Navigate to your app target **General** tab.
    - Scroll down to the **Frameworks, Libraries, and Embedded Content** section.
    - Click the `+` button, then select **Add Files**.
-   - Choose the `Luciq.xcframework` from the extracted folder, then click **Open**.
+   - Choose the `LuciqSDK.xcframework` from the extracted folder, then click **Open**.
 
 4. **Set Embed Option:**
-   - In the **Embed** column next to `Luciq.xcframework`, select `Embed & Sign`.
+   - In the **Embed** column next to `LuciqSDK.xcframework`, select `Embed & Sign`.
 
 ## Usage
 
