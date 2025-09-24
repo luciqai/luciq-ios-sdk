@@ -160,14 +160,14 @@ carthage update
 
 1. **📥 Download SDK**
    - Visit [Latest Release](https://github.com/luciqai/luciq-ios-sdk/releases/latest)
-   - Download `Luciq-XCFramework.zip`
+   - Download `LuciqSDK-XCFramework.zip`
 
 2. **📂 Extract & Add to Project**
    - Unzip the downloaded file
    - Open your Xcode project
    - Navigate to your app target's **General** tab
    - Under **Frameworks, Libraries, and Embedded Content**, click `+`
-   - Select **Add Files** and choose `Luciq.xcframework`
+   - Select **Add Files** and choose `LuciqSDK.xcframework`
 
 3. **⚙️ Configure Embedding**
    - Set **Embed** option to `Embed & Sign`
@@ -258,8 +258,6 @@ Before reporting a bug, please:
 1. **🔍 Search existing issues** to avoid duplicates
 2. **📱 Test on latest version** of the SDK
 3. **📝 Use our bug report template** for faster resolution
-
-[**🐛 Report a Bug**](https://github.com/luciqai/luciq-ios-sdk/issues/new?template=bug_report.md)
 
 ### 💡 Feature Requests
 
