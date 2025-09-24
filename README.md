@@ -230,6 +230,11 @@ see the [LICENSE.md](LICENSE.md) file for details.
 
 🌐 **[Visit our website](https://luciq.ai)** • 📖 **[Read the docs](https://docs.luciq.ai/)** • 💬 **[Get help](https://help.luciq.ai)**
 
+### 📞 Contact Us
+
+📧 **Primary Contact Email:** [support@luciq.ai](mailto:support@luciq.ai)  
+💼 **LinkedIn:** [linkedin.com/company/luciq](https://linkedin.com/company/luciq)  
+
 ---
 
 <p>Made with ❤️ by the Luciq team</p>
