@@ -63,7 +63,7 @@ body:
     id: integration-code
     attributes:
       label: 🔧 Luciq Integration Code
-      description: Please share your Luciq SDK integration code. **Important: Make sure to remove your app token before sharing!**
+      description: "Please share your Luciq SDK integration code. **Important: Make sure to remove your app token before sharing!**"
       placeholder: |-
         import Luciq
         
