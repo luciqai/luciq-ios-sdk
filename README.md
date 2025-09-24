@@ -116,17 +116,17 @@ pod install
 
 ### Carthage
 
-Add to your `Cartfile`:
+1. **Add to your `Cartfile`:**
+   ```
+   binary "https://raw.githubusercontent.com/luciqai/luciq-ios-sdk/main/Luciq.json"
+   ```
 
-```
-binary "https://raw.githubusercontent.com/luciqai/luciq-ios-sdk/main/Luciq.json"
-```
+2. **Run Carthage update:**
+   ```bash
+   carthage update
+   ```
 
-Install and integrate:
-```bash
-carthage update
-# Drag Luciq.framework into your Xcode project
-```
+3. **Drag LuciqSDK.xcframework into your Xcode project**
 
 ---
 
