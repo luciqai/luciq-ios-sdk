@@ -32,7 +32,6 @@
   - [Manual Installation](#manual-installation)
 - [🔧 Usage](#-usage)
 - [⚙️ Permissions](#️-permissions)
-- [🐛 Issues & Feature Requests](#-issues--feature-requests)
 - [📜 License](#-license)
 - [💬 Support](#-support)
 
@@ -230,67 +229,6 @@ Write clear, honest descriptions that explain exactly why you need each permissi
 Permissions are only requested when users attempt to use attachment features.
 
 > **Note**: Permission dialogs only appear when users actively try to attach voice notes or photos through Luciq's interface.
-
----
-
-## 🐛 Issues & Feature Requests
-
-Found something that's not working as expected? Got an awesome idea that could make the SDK even better? **We'd absolutely love to hear from you!** 🚀
-
-Your feedback helps us build a better SDK for the entire community.
-
-### 🐛 Bug Reports
-
-Encountered an issue? Don't worry – we're here to help! Our streamlined bug report process makes it easy to get the support you need.
-
-**[🚀 Report a Bug](https://github.com/luciqai/luciq-ios-sdk/issues/new?template=bug.yml)**
-
-Our bug template will guide you through sharing:
-- 📱 Platform and device information
-- 🔧 Your Luciq integration setup (don't forget to remove your app token!)
-- 📋 Step-by-step reproduction instructions
-- 📷 Screenshots, logs, or screen recordings
-- 🏗️ Environment details (Production, TestFlight, etc.)
-
-**💡 Pro Tips:**
-- ⚡ Use the template – it helps us resolve issues faster
-- 🔍 Search existing issues first to avoid duplicates
-- 📱 Test on the latest SDK version when possible
-
-### ✨ Feature Requests
-
-Got a brilliant idea? We're all ears! Your creative suggestions drive the SDK forward and make it more powerful for everyone.
-
-**[💡 Request a Feature](https://github.com/luciqai/luciq-ios-sdk/issues/new?template=feature.yml)**
-
-Share your vision by telling us:
-- 🎯 The problem you're trying to solve
-- 🎨 How you imagine it could work
-- 💻 Any code examples or mockups you have in mind
-- 🚀 Why this would be valuable for the community
-
-**What happens next?**
-- 👀 Our team reviews every request thoughtfully
-- 💬 We'll engage with you to understand the details
-- 📈 Community interest helps prioritize development
-- ✅ You'll get updates as we make progress
-
-### 🤝 Community Guidelines
-
-We believe in **building together**! Here's how to make the most of our collaboration:
-
-#### ✅ Before Posting
-- 🔍 **Search existing issues** – someone might have already shared your idea
-- 📚 **Check the documentation** – the solution might already exist
-- 🔄 **Update to latest version** – many issues are resolved in recent releases
-
-#### 💖 Our Commitment to You
-- 🎯 **Thorough investigation** – every bug report gets proper attention  
-- 🌟 **Transparent communication** – we'll keep you updated on progress
-
----
-
-**Ready to contribute?** We can't wait to see what you'll help us build! 🎉
 
 ---
 
