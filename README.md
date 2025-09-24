@@ -132,10 +132,7 @@ pod install
 
 ### Manual Installation
 
-<details>
-<summary>Click to expand manual installation steps</summary>
-
-### Step-by-Step Guide
+#### Step-by-Step Guide
 
 1. **📥 Download SDK**
    - Visit [Latest Release](https://github.com/luciqai/luciq-ios-sdk/releases/latest)
@@ -153,8 +150,6 @@ pod install
 
 4. **✅ Verify Installation**
    - Build your project (`⌘B`) to confirm successful integration
-
-</details>
 
 ---
 
