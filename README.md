@@ -228,7 +228,7 @@ see the [LICENSE.md](LICENSE.md) file for details.
 
 ### Need Help?
 
-🌐 **[Visit our website](https://luciq.ai)** • 📖 **[Read the docs](https://docs.luciq.ai/docs/ios-overview)** • 💬 **[Get support](https://luciq.ai/support)**
+🌐 **[Visit our website](https://luciq.ai)** • 📖 **[Read the docs](https://docs.luciq.ai/)** • 💬 **[Get help](https://help.luciq.ai)**
 
 ---
 
