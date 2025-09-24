@@ -24,7 +24,6 @@
 
 ## 📋 Table of Contents
 
-- [✨ Features](#-features)
 - [⚡ Quick Start](#-quick-start)
 - [📦 Installation](#-installation)
   - [Swift Package Manager](#swift-package-manager)
@@ -36,19 +35,6 @@
 - [🐛 Issues & Feature Requests](#-issues--feature-requests)
 - [📜 License](#-license)
 - [💬 Support](#-support)
-
----
-
-## ✨ Features
-
-### 🎯 Proactive Issue Detection
-AI-powered monitoring that catches issues before they impact users
-
-### 📱 Full Session Replays  
-Rich, contextual data capture with complete user session recordings
-
-### 🔍 Detailed Analytics
-Console logs, network requests, and comprehensive debugging information
 
 ---
 
