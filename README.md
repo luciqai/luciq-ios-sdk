@@ -249,39 +249,62 @@ Permissions are only requested when users attempt to use attachment features.
 
 ## 🐛 Issues & Feature Requests
 
-Found a bug or have an idea for improvement? We'd love to hear from you!
+Found something that's not working as expected? Got an awesome idea that could make the SDK even better? **We'd absolutely love to hear from you!** 🚀
 
-### 🔍 Reporting Bugs
+Your feedback helps us build a better SDK for the entire community.
 
-Before reporting a bug, please:
+### 🐛 Bug Reports
 
-1. **🔍 Search existing issues** to avoid duplicates
-2. **📱 Test on latest version** of the SDK
-3. **📝 Use our bug report template** for faster resolution
+Encountered an issue? Don't worry – we're here to help! Our streamlined bug report process makes it easy to get the support you need.
 
-### 💡 Feature Requests
+**[🚀 Report a Bug](https://github.com/luciqai/luciq-ios-sdk/issues/new?template=bug.yml)**
 
-Have an idea for a new feature?
+Our bug template will guide you through sharing:
+- 📱 Platform and device information
+- 🔧 Your Luciq integration setup (don't forget to remove your app token!)
+- 📋 Step-by-step reproduction instructions
+- 📷 Screenshots, logs, or screen recordings
+- 🏗️ Environment details (Production, TestFlight, etc.)
 
-1. **💭 Check existing requests** to see if it's already suggested
-2. **📋 Describe your use case** and expected behavior
+**💡 Pro Tips:**
+- ⚡ Use the template – it helps us resolve issues faster
+- 🔍 Search existing issues first to avoid duplicates
+- 📱 Test on the latest SDK version when possible
 
-### 📋 Issue Guidelines
+### ✨ Feature Requests
 
-#### 🐛 For Bug Reports Include:
-• iOS version and device model
-• Luciq SDK version
-• Xcode version
-• Steps to reproduce
-• Expected vs actual behavior
-• Crash logs or screenshots
+Got a brilliant idea? We're all ears! Your creative suggestions drive the SDK forward and make it more powerful for everyone.
 
-#### 💡 For Feature Requests Include:
-• Clear use case description
-• Expected behavior
-• Why this would be valuable
-• Any relevant mockups or examples
-• Priority/urgency level
+**[💡 Request a Feature](https://github.com/luciqai/luciq-ios-sdk/issues/new?template=feature.yml)**
+
+Share your vision by telling us:
+- 🎯 The problem you're trying to solve
+- 🎨 How you imagine it could work
+- 💻 Any code examples or mockups you have in mind
+- 🚀 Why this would be valuable for the community
+
+**What happens next?**
+- 👀 Our team reviews every request thoughtfully
+- 💬 We'll engage with you to understand the details
+- 📈 Community interest helps prioritize development
+- ✅ You'll get updates as we make progress
+
+### 🤝 Community Guidelines
+
+We believe in **building together**! Here's how to make the most of our collaboration:
+
+#### ✅ Before Posting
+- 🔍 **Search existing issues** – someone might have already shared your idea
+- 📚 **Check the documentation** – the solution might already exist
+- 🔄 **Update to latest version** – many issues are resolved in recent releases
+
+#### 💖 Our Commitment to You
+- 🎯 **Thorough investigation** – every bug report gets proper attention  
+- 🌟 **Transparent communication** – we'll keep you updated on progress
+
+---
+
+**Ready to contribute?** We can't wait to see what you'll help us build! 🎉
 
 ---
 
