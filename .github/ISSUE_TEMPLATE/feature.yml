@@ -1,0 +1,58 @@
+name: ✨ Feature Request
+description: Got an awesome idea for the Luciq iOS SDK? We'd love to hear it! Share your vision and help us make the SDK even better.
+labels: ["Platform: iOS", "Type: Feature Request"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 💡 What's the Problem?
+      description: Tell us about the challenge you're facing or the gap you've noticed. What would make your development experience smoother?
+      placeholder: |-
+        I'm trying to [describe your use case], but the current SDK doesn't support [specific functionality]. 
+        
+        For example:
+        - "I need to track custom user events with complex metadata"
+        - "I want to integrate with push notifications but need better control over timing"
+        - "I'm looking for offline data synchronization capabilities"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 🎨 Your Vision
+      description: How do you imagine this could work? Don't worry about implementation details – we're interested in your creative ideas!
+      placeholder: |-
+        I envision this working like...
+        
+        For example:
+        - "A new method like `Luciq.trackCustomEvent(name: String, properties: [String: Any])` that allows..."
+        - "An optional delegate protocol that gets called when..."
+        - "A configuration option that enables..."
+        
+        Feel free to include:
+        • API examples or pseudo-code
+        • UI/UX considerations
+        • Performance requirements
+        • Integration patterns you'd prefer
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |-
+        ## 🚀 Amazing!
+        
+        Thank you for sharing your ideas! Feature requests like yours are what drive the SDK forward and make it more powerful for everyone.
+        
+        **What happens next?**
+        • Our team will review your request and discuss its feasibility
+        • We'll consider it for upcoming releases based on community interest and technical requirements
+        • You'll get updates on this issue as we make progress
+        
+        **In the meantime:**
+        • 👍 Give this issue a thumbs up if you'd find it useful
+        • 💬 Feel free to add more details or examples in the comments
+        • 🔔 Watch the repo to stay updated on all our latest features
+    validations:
+      required: false
