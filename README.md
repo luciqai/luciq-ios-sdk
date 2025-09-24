@@ -5,19 +5,13 @@
   
   [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Luciq.svg?style=for-the-badge&color=blue)](https://cocoapods.org/pods/Luciq)
   [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg?style=for-the-badge)](https://github.com/apple/swift-package-manager)
-  [![License](https://img.shields.io/badge/license-MIT-orange.svg?style=for-the-badge)](LICENSE.md)
   [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=for-the-badge)](https://developer.apple.com/ios/)
   
   <br />
   
   Our intelligent AI agents help you capture rich, contextual data for every issue, including full session replays, console logs, and detailed network requests, to proactively detect, prioritize, and resolve problems automatically.
   
-  <strong>Ship faster, deliver frustration-free user sessions, and focus on building what matters.</strong>
-  
-  <br />
-  
-  [🌐 Website](https://luciq.ai) • [📖 Documentation](https://docs.luciq.ai) • [💬 Support](https://luciq.ai/support)
-  
+  <strong>Ship faster, deliver frustration-free user sessions, and focus on building what matters.</strong>  
 </div>
 
 ---
@@ -208,8 +202,6 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
 ## ⚙️ Permissions
 
-### Required Permissions
-
 Luciq requires specific permissions for media attachments. Add these to your `Info.plist`:
 
 ```xml
@@ -220,21 +212,13 @@ Luciq requires specific permissions for media attachments. Add these to your `In
 <string>$(PRODUCT_NAME) needs access to your photo library to attach images to feedback reports.</string>
 ```
 
-### 💡 Permission Guidelines
-
-#### 📱 User-Friendly Descriptions
-Write clear, honest descriptions that explain exactly why you need each permission.
-
-#### 🔒 Privacy-First Approach
-Permissions are only requested when users attempt to use attachment features.
-
 > **Note**: Permission dialogs only appear when users actively try to attach voice notes or photos through Luciq's interface.
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+see the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
