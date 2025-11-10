@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/faeture-screen_rendering-release/18.0.45/Luciq/archive.zip",
-            checksum: "8540b2986be93c3771adf836fb218451f1de163e2c8b35237eed3e47d1eb0034")
+            checksum: "91f0b429385de87109d644f04c73d16578950bc9a69a975eece7e63d5e2d41b4")
     ]
 )
