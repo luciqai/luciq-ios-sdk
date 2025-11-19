@@ -36,9 +36,8 @@
 Get up and running with Luciq in just a few steps:
 
 ### 1. Install the SDK
+Add in Xcode: File → Add Package Dependencies.
 ```bash
-# Using Swift Package Manager (Recommended)
-# Add in Xcode: File → Add Package Dependencies
 https://github.com/luciqai/luciq-ios-sdk
 ```
 
