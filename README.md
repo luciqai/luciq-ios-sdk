@@ -93,7 +93,7 @@ Check `Project Settings` → `Your Target` → `General` → `Frameworks, Librar
 Add to your `Podfile`:
 
 ```ruby
-  pod 'Luciq'
+pod 'Luciq'
 ```
 
 Then install:
@@ -167,10 +167,9 @@ func application(
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
 ) -> Bool {
-    Luciq.start(
-        withToken: "YOUR_APP_TOKEN", 
-        invocationEvents: .shake
-    )
+
+    Luciq.start(withToken: "YOUR_APP_TOKEN", invocationEvents: [.shake])
+
     return true
 }
 ```
@@ -181,10 +180,10 @@ func application(
 #import <LuciqSDK/LuciqSDK.h>
 
 // In AppDelegate
-- (BOOL)application:(UIApplication *)application 
-didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Luciq startWithToken:@"YOUR_APP_TOKEN" 
-         invocationEvents:LCQInvocationEventShake];
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    [Luciq startWithToken:@"YOUR_APP_TOKEN" invocationEvents:LCQInvocationEventShake];
+         
     return YES;
 }
 ```
@@ -211,7 +210,7 @@ Luciq requires specific permissions for media attachments. Add these to your `In
 
 ## 📜 License
 
-see the [LICENSE.md](LICENSE.md) file for details.
+See the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
