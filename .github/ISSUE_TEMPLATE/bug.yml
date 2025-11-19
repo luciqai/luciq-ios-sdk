@@ -1,0 +1,152 @@
+name: 🐛 Bug Report
+description: Found something that's not working as expected? We'd love to help fix it! Please share the details below.
+labels: ["Platform: iOS", "Type: Bug"]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 📱 Platform(s)
+      description: Which Apple platform(s) are you developing for? (Select all that apply)
+      multiple: true
+      options:
+        - iOS
+        - iPadOS
+        - tvOS
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: 🏗️ Environment
+      description: Where did you encounter this issue? This helps us understand the context better.
+      multiple: true
+      options:
+        - Production
+        - Development/Debug
+        - TestFlight
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: installed
+    attributes:
+      label: 📦 Installation Method
+      description: How did you add the Luciq iOS SDK to your project?
+      options:
+        - Swift Package Manager
+        - CocoaPods
+        - Carthage
+        - Manually
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 🔖 SDK Version
+      description: Which version of the Luciq iOS SDK are you using? (Check your Package.swift, Podfile, or project settings)
+      placeholder: e.g., 1.2.3
+    validations:
+      required: true
+
+  - type: input
+    id: previous-versions
+    attributes:
+      label: 🕰️ Previous Versions
+      description: Did this work in earlier versions? If so, which was the last working version? (This helps us identify when the issue was introduced)
+    validations:
+      required: false
+
+  - type: textarea
+    id: integration-code
+    attributes:
+      label: 🔧 Luciq Integration Code
+      description: "Please share your Luciq SDK integration code. **Important: Make sure to remove your app token before sharing!**"
+      placeholder: |-
+        import Luciq
+        
+        // Initialize Luciq SDK
+        let config = LuciqConfig(appToken: "YOUR_APP_TOKEN_HERE") // ⚠️ Remove your actual token!
+        Luciq.initialize(with: config)
+        
+        // Your integration code here...
+    validations:
+      required: true
+
+  - type: input
+    id: ios-version
+    attributes:
+      label: 📱 iOS Version
+      description: Which version of iOS are you testing on?
+      placeholder: e.g., 17.0, 16.4.1, 15.7
+    validations:
+      required: true
+
+  - type: input
+    id: device-model
+    attributes:
+      label: 📲 Device Model
+      description: What device are you using? (Physical device or simulator)
+      placeholder: e.g., iPhone 14 Pro, iPad Air 5th gen, iPhone Simulator
+    validations:
+      required: true
+
+  - type: textarea
+    id: sample-project
+    attributes:
+      label: 📁 [Optional] Project That Reproduces the Issue
+      description: If you have a minimal sample project that demonstrates this issue, please share a link to the repository (GitHub, GitLab, etc.)
+      placeholder: |-
+        https://github.com/your-username/luciq-bug-reproduction
+        
+        Or describe how to set up a minimal project that reproduces this issue:
+        1. Create new Xcode project
+        2. Add Luciq SDK via SPM
+        3. Add this code: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: 🔄 Steps to Reproduce
+      description: Help us reproduce the issue by providing clear, step-by-step instructions. The more detailed, the better!
+      placeholder: |-
+        1. Initialize Luciq SDK with configuration...
+        2. Call specific method or trigger specific action...
+        3. Observe the unexpected behavior...
+        4. Expected vs actual outcome...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Actual Behavior
+      description: What actually happened? Feel free to include error messages, logs, screenshots, or screen recordings – they're super helpful!
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |-
+        ## 🎉 Thank You!
+        
+        Thanks for taking the time to report this issue! Your feedback helps make the Luciq iOS SDK better for everyone.
+        
+        Our team will review your report and get back to you as soon as possible. In the meantime, feel free to:
+        - 👀 Check our [documentation](https://docs.luciq.ai) for potential workarounds
+        - 💬 Join the discussion in other issues
+        - ⭐ Star the repo if you find the SDK useful!
+    validations:
+      required: false
