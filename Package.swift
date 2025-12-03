@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/test-unit_tests/19.1.1/Luciq/archive.zip",
-            checksum: "dc49e0391fa1b857d9527db005e8f05dc4051a287eaaa14584f5d107d57b6f68")
+            checksum: "358189c376f9e20044b01d9a414b30474287745e9f56e11a0e5d4dff4a979866")
     ]
 )
