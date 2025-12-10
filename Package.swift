@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Luciq",
-            url: "https://github.com/luciqai/luciq-ios-sdk/releases/download/19.1.1/Luciq-XCFramework.zip",
-            checksum: "60f834dfde19df18640e949f552522091c5d592453258abddbcb086946df48d9")
+            url: "https://ios-releases.luciq.ai/custom_spm/fix-screenshot-masking-not-in-sync/19.1.1/Luciq/archive.zip",
+            checksum: "10d4f1fcdf073b4ec8328007c96bb5c49937bb466d8b3c69c5676b49cecd9747")
     ]
 )
