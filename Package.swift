@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/rebase-bdr-therma/19.2.0/Luciq/archive.zip",
-            checksum: "3ad6eb88a4ea063f08ac150fbbb99c1ba1c34840865c5d9a3688cf4b13e2de71")
+            checksum: "523be2856aaffef18058f9c6d630b0cfd8197113bd341b2dbd8d3b2a583bf3a7")
     ]
 )
