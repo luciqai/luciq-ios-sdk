@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/draft-custom-build-economist-video-no-sound/19.3.0/Luciq/archive.zip",
-            checksum: "f1ac37ac2b179dc053105ec2e4ad69cfa9a2e322953dbc2ceccc467897f4e2e7")
+            checksum: "9a04edb69d68c6122e12e61f3302b3f7ee652b194f917067e5634bb004f4a439")
     ]
 )
