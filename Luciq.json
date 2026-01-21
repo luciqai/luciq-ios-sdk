@@ -1,10 +1,11 @@
 {
-  "18.0.1" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/18.0.1\/Luciq-XCFramework.zip",
-  "18.0.0" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/18.0.0\/Luciq-XCFramework.zip",
-  "19.3.1" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/19.3.1\/Luciq-XCFramework.zip",
   "19.2.0" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/19.2.0\/Luciq-XCFramework.zip",
-  "19.3.0" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/19.3.0\/Luciq-XCFramework.zip",
+  "19.4.0" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/19.4.0\/Luciq-XCFramework.zip",
+  "19.1.1" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/19.1.1\/Luciq-XCFramework.zip",
   "19.0.0" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/19.0.0\/Luciq-XCFramework.zip",
+  "19.3.0" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/19.3.0\/Luciq-XCFramework.zip",
   "19.1.0" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/19.1.0\/Luciq-XCFramework.zip",
-  "19.1.1" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/19.1.1\/Luciq-XCFramework.zip"
+  "19.3.1" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/19.3.1\/Luciq-XCFramework.zip",
+  "18.0.0" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/18.0.0\/Luciq-XCFramework.zip",
+  "18.0.1" : "https:\/\/github.com\/luciqai\/luciq-ios-sdk\/releases\/download\/18.0.1\/Luciq-XCFramework.zip"
 }
