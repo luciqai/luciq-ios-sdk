@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/fix-app-hangs-stressing-nonfatals-flutter/19.5.0/Luciq/archive.zip",
-            checksum: "47ef7b2393c094d77db57ef184c23dade5e01e7bf03bdfa122bc44fe9f4e1b78")
+            checksum: "f0e2fd4803352ad41644a789d76e871e97dc77e91870f36506520703960014c0")
     ]
 )
