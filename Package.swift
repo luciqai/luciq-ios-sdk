@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/fix-swt-365-phoenix-resources-xcode-bundle/19.9.2/Luciq/archive.zip",
-            checksum: "d7b5bc6d65813ce452c020bb5849931ea7c59b6262917afe1e185be1de055192")
+            checksum: "1abb06c521d9746d9f5422ce97cf250a9e0f8baa055adba470bb20ed8456152f")
     ]
 )
