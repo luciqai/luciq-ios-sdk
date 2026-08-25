@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/fix-purge-cached-data-app-token-change/19.9.2/Luciq/archive.zip",
-            checksum: "d9eb583271cbc7ebbf6b91a520c0ece580edc9a87005aeb386747dc32e84256a")
+            checksum: "25e702be3e0c656772655aae4dfe1fe9a6a0ff8341f6d3d53ff86f116de07df3")
     ]
 )
