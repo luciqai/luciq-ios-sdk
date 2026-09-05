@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Luciq",
-            url: "https://github.com/luciqai/luciq-ios-sdk/releases/download/19.10.0/Luciq-XCFramework.zip",
-            checksum: "e9063fe0f0e705b8bdcdfa4efb681ea554afddd64398c0e1a479cc491abb40e8")
+            url: "https://ios-releases.luciq.ai/custom_spm/phoenix-apm-skeleton/19.10.0/Luciq/archive.zip",
+            checksum: "d86ff9ddf40bf25dbe31403f5a9f1d255f5769d8d69f8dde858dc27b053a81b2")
     ]
 )
