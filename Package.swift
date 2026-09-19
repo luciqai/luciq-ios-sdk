@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/chore-remove-cocoapods/19.11.0/Luciq/archive.zip",
-            checksum: "90856dac051e1fae0f9682ac335bb742b843071e515df10e86d4d6826cda8c0f")
+            checksum: "3ae0681408b69827e0549e3144a259027a47f98900a1f33f48d2ab1c6d2eb91a")
     ]
 )
