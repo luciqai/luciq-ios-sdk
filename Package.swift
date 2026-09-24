@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/chore-remove-e-distant-object/19.11.0/Luciq/archive.zip",
-            checksum: "8858148fdf8e34a9dbc3cc9b40e9947c8eee1a45555c27ba89f0d5006a3344e1")
+            checksum: "4a2b8f67ba644a7b724df858f0f8b812cd3234f3394731474510e82cebe747b0")
     ]
 )
