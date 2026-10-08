@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/feature-metrickit-crash-diagnostics-v2/19.11.0/Luciq/archive.zip",
-            checksum: "fa0ce93d42fc95e3d0e892680dfbb8c55d13108f7f11142a0ce233c41dbdf507")
+            checksum: "3a9961ba25bdcdc0c4939ffad0be05988d1189818ff675e8eda123ce10ce4f93")
     ]
 )
