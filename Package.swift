@@ -14,6 +14,6 @@ let package = Package(
         .binaryTarget(
             name: "Luciq",
             url: "https://ios-releases.luciq.ai/custom_spm/fix-SWT-497-prompt-navbar-host-appearance/19.11.0/Luciq/archive.zip",
-            checksum: "7cf14e749a7ff68ee5b023b52f25ac1d6b7e7062431bc48225a2556d51fd76e8")
+            checksum: "a2f51f935c595d083840438d380008fef10a831a4ac13467ff3eebf8b0165535")
     ]
 )
